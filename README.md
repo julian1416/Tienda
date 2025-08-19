@@ -1,16 +1,39 @@
-# mi_tienda
+# 🛍️ Mi Tienda
 
-A new Flutter project.
+**Mi Tienda** es una aplicación móvil de **e-commerce** desarrollada con **Flutter** y **Firebase**.  
+Permite a los usuarios explorar productos, ver descuentos, marcarlos como favoritos y acceder a sus detalles de manera rápida y atractiva.  
 
-## Getting Started
+Su objetivo es ofrecer una **experiencia de compra moderna y fluida**, similar a plataformas reconocidas como Mercado Libre.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Características principales
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔐 **Autenticación de usuarios** con Firebase Authentication (registro e inicio de sesión).  
+- 📦 **Catálogo de productos dinámico** cargado desde Firestore en tiempo real.  
+- ❤️ **Sistema de favoritos** persistente por usuario.  
+- 💵 **Gestión de precios y descuentos**, con cálculo automático de porcentaje de ahorro.  
+- 🚚 **Envío gratis** en productos seleccionados.  
+- ⚡ **UI optimizada**, rápida y responsiva, con imágenes cacheadas (`cached_network_image`).  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Stack Tecnológico
+
+- **Framework:** Flutter  
+- **Backend y BDD:** Firebase (Firestore, Authentication, Storage)  
+- **Gestión de estado:** (puedes especificar: Provider, setState, Riverpod, etc.)  
+- **Paquetes clave:**  
+  - `firebase_core` y `cloud_firestore` → integración con Firestore  
+  - `firebase_auth` → autenticación de usuarios  
+  - `cached_network_image` → carga optimizada de imágenes  
+  - `intl` → formato de monedas  
+  - *(agrega otros si los usaste, ej. provider, get_it, etc.)*
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/julian1416/Tienda.git
