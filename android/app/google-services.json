@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218698886631",
+    "project_id": "mi-tienda-flutter",
+    "storage_bucket": "mi-tienda-flutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218698886631:android:3b9c227ddf37351345e142",
+        "android_client_info": {
+          "package_name": "com.example.mi_tienda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6xKKt9O5DkvQLdpSU93lxmKegmSfNMgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

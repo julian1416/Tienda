@@ -1,0 +1,35 @@
+buildscript {
+    ext.kotlin_version = '1.9.0' // Versión estándar de Kotlin para Flutter
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.0' // Gradle Build Tools
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        
+        // ¡ESTA ES LA LÍNEA QUE FALTABA Y ES CRUCIAL!
+        // Le dice a Gradle dónde encontrar el plugin de servicios de Google.
+        classpath 'com.google.gms:google-services:4.4.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
