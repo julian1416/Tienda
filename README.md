@@ -9,12 +9,12 @@ Su objetivo es ofrecer una **experiencia de compra moderna y fluida**, similar a
 
 ## ✨ Características principales
 
-- 🔐 **Autenticación de usuarios** con Firebase Authentication (registro e inicio de sesión).  
-- 📦 **Catálogo de productos dinámico** cargado desde Firestore en tiempo real.  
-- ❤️ **Sistema de favoritos** persistente por usuario.  
-- 💵 **Gestión de precios y descuentos**, con cálculo automático de porcentaje de ahorro.  
-- 🚚 **Envío gratis** en productos seleccionados.  
-- ⚡ **UI optimizada**, rápida y responsiva, con imágenes cacheadas (`cached_network_image`).  
+- 🔐 **Autenticación de usuarios** con Firebase Authentication (registro e inicio de sesión).
+- 📦 **Catálogo de productos dinámico** cargado desde Firestore en tiempo real.
+- ❤️ **Sistema de favoritos** persistente por usuario.
+- 💵 **Gestión de precios y descuentos**, con cálculo automático de porcentaje de ahorro.
+- 🚚 **Envío gratis** en productos seleccionados.
+- ⚡ **UI optimizada**, rápida y responsiva, con imágenes cacheadas (`cached_network_image`).
 
 ---
 
@@ -22,13 +22,24 @@ Su objetivo es ofrecer una **experiencia de compra moderna y fluida**, similar a
 
 - **Framework:** Flutter  
 - **Backend y BDD:** Firebase (Firestore, Authentication, Storage)  
-- **Gestión de estado:** (puedes especificar: Provider, setState, Riverpod, etc.)  
+- **Gestión de estado:** `Provider`  
 - **Paquetes clave:**  
   - `firebase_core` y `cloud_firestore` → integración con Firestore  
   - `firebase_auth` → autenticación de usuarios  
   - `cached_network_image` → carga optimizada de imágenes  
   - `intl` → formato de monedas  
-  - *(agrega otros si los usaste, ej. provider, get_it, etc.)*
+
+---
+
+## 📸 Capturas de pantalla
+
+| Login | Catálogo | Detalle |
+|-------|----------|---------|
+| ![Login](screens/login.jpg) | ![Catálogo](screens/catalog.jpg) | ![Detalle](screens/detail.jpg) |
+
+| Carrito | Favoritos |
+|---------|-----------|
+| ![Carrito](screens/cart.jpg) | ![Favoritos](screens/favorites.jpg) |
 
 ---
 
