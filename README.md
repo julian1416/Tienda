@@ -41,58 +41,37 @@ El objetivo es ofrecer una **experiencia de compra moderna y fluida**, inspirada
 
 ---
 
-## 🗂️ Estructura del proyecto (resumen)
+## 🖼️ Capturas
 
-mi_tienda/
-├─ lib/
-│  ├─ main.dart
-│  ├─ firebase_options.dart # (NO se sube; se genera con FlutterFire)
-│  ├─ models/
-│  │  └─ product_model.dart
-│  ├─ screens/
-│  │  ├─ auth_wrapper.dart
-│  │  ├─ home_screen.dart
-│  │  ├─ profile_screen.dart
-│  │  ├─ register_screen.dart
-│  │  └─ product_detail_screen.dart
-│  ├─ services/
-│  │  ├─ auth_service.dart
-│  │  └─ firestore_service.dart
-│  └─ widgets/
-│     └─ product_card.dart
-├─ screens/ # Capturas para el README
-│  ├─ login.jpg
-│  ├─ create.jpg
-│  ├─ homepage.jpg
-│  ├─ favorites.jpg
-│  ├─ shopping.jpg
-│  ├─ profile.jpg
-│  ├─ description.jpg
-│  └─ confirmation.jpg
-├─ android/ ... / ios/ ... # Proyectos nativos
-├─ pubspec.yaml
-└─ README.md
 
 ---
 
 ## 🖼️ Capturas
 
-<p align="center">
-  <img src="screens/login.jpg" alt="Login" width="240"/>
-  <img src="screens/create.jpg" alt="Crear cuenta" width="240"/>
-  <img src="screens/homepage.jpg" alt="Inicio / Catálogo" width="240"/>
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="screens/login.jpg" alt="Login" width="200"/></td>
+    <td align="center"><img src="screens/create.jpg" alt="Crear cuenta" width="200"/></td>
+    <td align="center"><img src="screens/homepage.jpg" alt="Inicio / Catálogo" width="200"/></td>
+    <td align="center"><img src="screens/description.jpg" alt="Detalle Producto" width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screens/favorites.jpg" alt="Favoritos" width="200"/></td>
+    <td align="center"><img src="screens/shopping.jpg" alt="Carrito" width="200"/></td>
+    <td align="center"><img src="screens/profile.jpg" alt="Perfil" width="200"/></td>
+    <td align="center"><img src="screens/confirmation.jpg" alt="Confirmación / Checkout" width="200"/></td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="screens/favorites.jpg" alt="Favoritos" width="240"/>
-  <img src="screens/shopping.jpg" alt="Carrito" width="240"/>
-  <img src="screens/profile.jpg" alt="Perfil" width="240"/>
-</p>
+---
 
-<p align="center">
-  <img src="screens/description.jpg" alt="Detalle Producto" width="240"/>
-  <img src="screens/confirmation.jpg" alt="Confirmación / Checkout" width="240"/>
-</p>
+## 🚀 Cómo ejecutar el proyecto
+
+### 1) Clonar e instalar dependencias
+```bash
+git clone https://github.com/julian1416/Tienda.git
+cd Tienda
+flutter pub get
 
 ---
 
