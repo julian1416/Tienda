@@ -58,8 +58,8 @@ El objetivo es ofrecer una **experiencia de compra moderna y fluida**, inspirada
   <tr>
     <td align="center"><img src="screens/favorites.jpg" alt="Favoritos" width="200"/></td>
     <td align="center"><img src="screens/shopping.jpg" alt="Carrito" width="200"/></td>
-    <td align="center"><img src="screens/profile.jpg" alt="Perfil" width="200"/></td>
-    <td align="center"><img src="screens/confirmation.jpg" alt="Confirmación / Checkout" width="200"/></td>
+    <td align="center"><img src="screens/confirmation.jpg" alt="Confirmación" width="200"/></td>
+    <td align="center"><img src="screens/profile.jpg" alt="Perfil / Checkout" width="200"/></td>
   </tr>
 </table>
 
